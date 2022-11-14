@@ -15,10 +15,12 @@ h1 {
 h2 {
     font-size: 28px;
     font-family: 'Montserrat', sans-serif;
+    margin-top: 8px;
 }
 
 h3 {
     font-size: 36px;
+    margin-bottom: 20px;
 }
 
 h4{
@@ -30,7 +32,7 @@ h5 {
 }
 
 h6 {
-    font-size: 18px;
+    font-size: 16px;
 }
 
 p {
@@ -90,6 +92,7 @@ nav {
 
 .logo {
   width: 10%;
+  padding: 6px;
 }
 .nav-link_container {
   display: flex;
@@ -299,7 +302,7 @@ img {vertical-align: middle;}
 
 /* Slideshow container */
 .slideshow-container {
-  max-width: 1400px;
+  max-width: 1350px;
   position: relative;
   margin: auto;
 }
@@ -314,6 +317,7 @@ img {vertical-align: middle;}
   margin-top: -22px;
   padding: 16px;
   color: #3F4242;
+  background-color: white;
   font-weight: bold;
   font-size: 18px;
   transition: 0.6s ease;
@@ -358,8 +362,8 @@ img {vertical-align: middle;}
 /* The dots/bullets/indicators */
 .dot {
   cursor: pointer;
-  height: 15px;
-  width: 15px;
+  height: 10px;
+  width: 10px;
   margin: 0 2px;
   background-color: #bbb;
   border-radius: 50%;
@@ -390,12 +394,12 @@ img {vertical-align: middle;}
 footer {
     background-color: #f4f4f4; 
     text-align: center;
-    padding: 20px 
+    padding: 10px; 
 }
 
 .copyright {
     font-size: 12px;
-    margin-top: 20px; 
+    margin-top: 10px; 
 
 }
 
@@ -472,7 +476,7 @@ footer {
     }
 
     .card img {
-        width: 100%;
+        max-width: 100%;
     }
 
 }
@@ -500,4 +504,10 @@ footer {
         width: 50%; 
     }
 
+
+    
+
 }
+
+
+  
