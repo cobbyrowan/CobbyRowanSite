@@ -42,7 +42,7 @@ function showSlides2(n) {
   let i;
   let slide2 = document.getElementsByClassName("mySlides2");
   console.log(slide2)
-  let dots = document.getElementsByClassName("dot");
+  let dots = document.getElementsByClassName("dot2");
   if (n > slide2.length) {slideIndex2 = 1}    
   if (n < 1) {slideIndex2 = slide2.length}
   for (i = 0; i < slide2.length; i++) {
@@ -70,7 +70,7 @@ function showSlides3(n) {
   let i;
   let slide3 = document.getElementsByClassName("mySlides3");
   console.log(slide3)
-  let dots = document.getElementsByClassName("dot");
+  let dots = document.getElementsByClassName("dot3");
   if (n > slide3.length) {slideIndex3 = 1}    
   if (n < 1) {slideIndex3 = slide3.length}
   for (i = 0; i < slide3.length; i++) {
